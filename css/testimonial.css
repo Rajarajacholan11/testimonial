@@ -1,0 +1,200 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    background-image:url('../images/yellow-white-abstract-paper-waves\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.header
+{
+    height:90px;
+    color: white;
+    background-color: #f1d63c;
+}
+.header h1
+{
+padding-top: 20px;
+}
+.container
+{
+}
+.con
+{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    margin-bottom:50px;
+}
+.TXT
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con .TXT
+{
+    width:600px;
+    height: 250px;
+    
+}
+.TXT h2
+{
+    font-weight:bolder;
+    border-bottom:  4px solid yellow;
+}  
+.TXT p
+{
+    color: rgb(153, 144, 144);
+} 
+.card
+{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:30px;
+
+}
+.card   img
+{
+    height:300px;
+    width:350px;
+}
+.card h3
+{
+    color: black;
+    border-bottom:4px   solid   yellow;
+}
+.CONTENT
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top:30px;
+}
+.con
+    {
+        width:100%;
+        height: 100%;
+    }
+    .con .TXT
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .con .TXT h2
+    {
+        font-size:22px;
+    }
+    .con .TXT p
+    {
+        font-size:14px;
+        padding-left:5px;
+    }
+    .CONTENT
+    {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .CONTENT .card
+    {
+        width:300px;
+        padding-left:0px;
+    }
+    
+
+@media  (max-width:830px)
+{
+    .con
+    {
+        width:100%;
+        height: 100%;
+    }
+    .con .TXT
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .con .TXT h2
+    {
+        font-size:22px;
+    }
+    .con .TXT p
+    {
+        font-size:14px;
+        padding-left:5px;
+    }
+    .CONTENT
+    {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .CONTENT .card
+    {
+        width:300px;
+        padding-left:0px;
+    }
+    
+}
+
+
+
+
+
+
+@media  (max-width:500px)
+{
+    .con
+    {
+        width:100%;
+        height: 100%;
+    }
+    .con .TXT
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .con .TXT h2
+    {
+        font-size:22px;
+    }
+    .con .TXT p
+    {
+        font-size:14px;
+        padding-left:5px;
+    }
+    .CONTENT
+    {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .CONTENT .card
+    {
+        width:300px;
+        padding-left:0px;
+    }
+    
+
+}
